@@ -15,6 +15,8 @@
 		5D3B346F1B214DEA00D20637 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3B346E1B214DEA00D20637 /* Images.xcassets */; };
 		5D3B34721B214DEA00D20637 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3B34701B214DEA00D20637 /* LaunchScreen.xib */; };
 		5D3B347E1B214DEA00D20637 /* SortTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B347D1B214DEA00D20637 /* SortTesterTests.m */; };
+		5D3B34891B214EE700D20637 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B34881B214EE700D20637 /* Item.m */; };
+		5D3B348C1B2152B900D20637 /* ItemSortDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B348B1B2152B900D20637 /* ItemSortDescriptor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		5D3B34771B214DEA00D20637 /* SortTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3B347C1B214DEA00D20637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D3B347D1B214DEA00D20637 /* SortTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortTesterTests.m; sourceTree = "<group>"; };
+		5D3B34871B214EE700D20637 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		5D3B34881B214EE700D20637 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		5D3B348A1B2152B900D20637 /* ItemSortDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemSortDescriptor.h; sourceTree = "<group>"; };
+		5D3B348B1B2152B900D20637 /* ItemSortDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemSortDescriptor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,8 @@
 		5D3B345D1B214DEA00D20637 /* SortTester */ = {
 			isa = PBXGroup;
 			children = (
+				5D3B34871B214EE700D20637 /* Item.h */,
+				5D3B34881B214EE700D20637 /* Item.m */,
 				5D3B34621B214DEA00D20637 /* AppDelegate.h */,
 				5D3B34631B214DEA00D20637 /* AppDelegate.m */,
 				5D3B34681B214DEA00D20637 /* ViewController.h */,
@@ -92,6 +100,8 @@
 				5D3B34701B214DEA00D20637 /* LaunchScreen.xib */,
 				5D3B34651B214DEA00D20637 /* SortTester.xcdatamodeld */,
 				5D3B345E1B214DEA00D20637 /* Supporting Files */,
+				5D3B348A1B2152B900D20637 /* ItemSortDescriptor.h */,
+				5D3B348B1B2152B900D20637 /* ItemSortDescriptor.m */,
 			);
 			path = SortTester;
 			sourceTree = "<group>";
@@ -222,10 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3B34891B214EE700D20637 /* Item.m in Sources */,
 				5D3B34641B214DEA00D20637 /* AppDelegate.m in Sources */,
 				5D3B34611B214DEA00D20637 /* main.m in Sources */,
 				5D3B346A1B214DEA00D20637 /* ViewController.m in Sources */,
 				5D3B34671B214DEA00D20637 /* SortTester.xcdatamodeld in Sources */,
+				5D3B348C1B2152B900D20637 /* ItemSortDescriptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
